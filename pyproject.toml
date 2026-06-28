@@ -14,6 +14,10 @@ authors = [
 ]
 dependencies = []
 
+# Since this is a script repo (not a package), disable package discovery
+[tool.setuptools]
+py-modules = ["hello", "printhello"]
+
 [project.optional-dependencies]
 dev = [
   "black==24.4.2",
