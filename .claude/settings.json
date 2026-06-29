@@ -27,7 +27,6 @@
       "Edit(*)",
       "Write(*)",
       "NotebookEdit(*)"
-    ],
-    "deny": []
+    ]
   }
 }
